@@ -8,7 +8,8 @@ App Pawsome is an Angular web application designed for dog enthusiasts. It provi
 - **View Dog Images:** Upon selecting a breed, users can view a random image of a dog from that breed.
 
 ## Images
-Uploaded image
+![pawsome view ](https://github.com/ibrahimkedir10/Pawsome/assets/93158833/2a216cbf-d941-4fd1-82fe-6976190e340f)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
 
