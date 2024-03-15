@@ -1,0 +1,19 @@
+.image-container {
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border: 5px solid rgb(154, 40, 40); /* Optional: Adds a border around the image container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: dotted;
+    border-radius: 10px;
+    overflow: hidden; /* Ensures the image doesn't overflow the container */
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* Ensures the image covers the area of the container without stretching */
+  }
+  
