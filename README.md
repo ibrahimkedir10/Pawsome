@@ -1,5 +1,13 @@
 # AppPawsome
 
+App Pawsome is an Angular web application designed for dog enthusiasts. It provides a user-friendly interface to browse through various dog breeds and view random images of selected breeds. This project utilizes the [Dog CEO's Dog API](https://dog.ceo/dog-api/) to fetch breed data and images.
+
+## Features
+
+- **Browse Dog Breeds:** Users can view a list of dog breeds.
+- **View Dog Images:** Upon selecting a breed, users can view a random image of a dog from that breed.
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
 
 ## Development server
