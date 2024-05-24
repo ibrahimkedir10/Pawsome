@@ -1,7 +1,20 @@
 # Dog Breeds Explorer
 
-Welcome to the Dog Breeds Explorer, a React application designed to showcase the different breeds of dogs using the Dog CEO's Dog API. This project is built with React and Tailwind CSS, focusing on providing a user-friendly interface to explore dog breeds and view random images of selected breeds.
+Welcome to the Dog Breeds Explorer, a React application designed to showcase the different breeds of dogs using the Dog CEO's Dog API. 
 
+## Table of Contents
+
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Using the Application](#using-the-application)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Available Scripts](#available-scripts)
+- [Contact](#contact)
+
+  
 ## Features
 
 - **List All Breeds**: Fetch and display a list of all dog breeds using the Dog CEO API.
@@ -9,35 +22,84 @@ Welcome to the Dog Breeds Explorer, a React application designed to showcase the
 - **Responsive Design**: Built with mobile-first design principles in mind, ensuring a seamless experience across all devices.
 - **Modern UI**: Utilizes Tailwind CSS for styling, providing a clean and modern user interface.
 
-## Getting Started
+## ScreenShots
+### Big Screen:
+- Home Page
+![Screen Shot 2024-05-24 at 7 12 41 PM](https://github.com/ibrahimkedir10/personal-website-2/assets/93158833/566c26cb-3986-4f1a-82a5-af0ada927265)
+- Saved Memories Page
+![Screen Shot 2024-05-24 at 7 13 51 PM](https://github.com/ibrahimkedir10/personal-website-2/assets/93158833/f9767787-3ed1-49f0-8b79-7d8d9db06319)
+### Meduim Screen Size
+![Screen Shot 2024-05-24 at 7 14 58 PM](https://github.com/ibrahimkedir10/personal-website-2/assets/93158833/90879df6-4504-4cb8-9b7d-63c5c7bd2015)
+### Small Screen Size
+![Screen Shot 2024-05-24 at 7 15 16 PM](https://github.com/ibrahimkedir10/personal-website-2/assets/93158833/28939768-6e25-4bfe-a286-73cfd88fe16c)
+
+## Using the Application
+1. Home Page
+
+- On the home page, you will see a header with the title "Dog Breed Explorer".
+- Below the header, there are three main sections:
+- Dog Breed List: On the left, a list of dog breeds fetched from the Dog CEO API.
+- - Form: In the center, a form to name and describe the dog.
+- - Dog Image: On the right, a random image of the selected dog breed.
+
+
+2. Selecting a Dog Breed
+
+- Click on any breed from the list on the left. This will fetch and display a random image of the selected breed on the right side.
+
+3. Naming and Describing the Dog
+
+- Enter a name and description for the selected dog in the form in the center.
+- The form includes:
+- A text input for the dog's name.
+- A textarea for a description of the dog.
+
+4. Saving to Memories
+
+- After selecting a breed and filling out the form, click the "Save to Memories" button below the form.
+- This will save the dog's image, name, breed, and description to the "memories" section.
+
+5. Viewing Saved Memories
+
+- Click on the "Memories" link in the navigation menu.
+- This will take you to a page where you can see all your saved dogs with their images, names, breeds, and descriptions.
+
+6. Deleting a Memory
+
+- In the "memories" section, each saved dog has a delete button (represented by a trash can icon).
+- Click this button to remove the dog from your memories.
+
+## Technologies Used
+- React: JavaScript library for building user interfaces
+- Jest: JavaScript testing framework
+- React Testing Library: Library for testing React components
+- Tailwind CSS: Utility-first CSS framework for styling
+
+  
+### Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
+## Prerequisites
 
 What you need to install the software:
 
 - Node.js
 - npm (Node Package Manager)
 
-### Installation
+## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/dog-breeds-explorer.git
+Contributing
+Feel free to submit issues and enhancement requests.
 
-### ScreenShots
-## Big Screen:
-## Home Page
-![Screen Shot 2024-05-01 at 3 32 02 PM](https://github.com/ibrahimkedir10/personal-website-2/assets/93158833/b0db1719-a670-4f08-86ae-dbe4edfbca93)
-![Screen Shot 2024-05-01 at 3 39 19 PM](https://github.com/ibrahimkedir10/personal-website-2/assets/93158833/01c51199-e388-4c6f-9b70-aed58b66bdae)
-## Saved Memories Page
-![Screen Shot 2024-04-27 at 1 45 33 PM](https://github.com/ibrahimkedir10/pawsome-react/assets/93158833/552210d2-fa4a-45b6-b61a-d0d987ea7d1a)
-## Small Screen
-![Screen Shot 2024-05-01 at 3 32 31 PM](https://github.com/ibrahimkedir10/personal-website-2/assets/93158833/00fc0cf1-0195-42da-9c9c-abd988517aa4)
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-branch).
+3. Make your changes.
+4. Commit your changes (git commit -m 'Add some feature').
+5. Push to the branch (git push origin feature-branch).
+6. Open a pull request.
 
-
-# Getting Started with Create React App
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -45,7 +107,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+## `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -53,12 +115,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -68,42 +130,11 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Contact
+ibrahim.kedir@outlook.com 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
