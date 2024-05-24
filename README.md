@@ -12,6 +12,7 @@ Welcome to the Dog Breeds Explorer, a React application designed to showcase the
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Available Scripts](#available-scripts)
+- [Bonus Points](#bonus-points)
 - [Contact](#contact)
 
   
@@ -134,7 +135,35 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+## Bonus Points
+### How the Application and API Could Be Extended and Improved
+1. User Authentication: Implement user authentication to allow users to create accounts and save their favorite breeds to their profiles. This would enhance user engagement and personalization.
+
+2. Additional Information: Provide more detailed information about each breed, such as temperament, size, and care requirements. This could be fetched from an additional API or a custom database.
+
+3. Image Gallery: Instead of displaying a single random image, create an image gallery for each breed. Users could browse through multiple images of the selected breed.
+
+4. Search Functionality: Add a search bar to allow users to quickly find specific breeds.
+
+5. Breed Comparison: Allow users to compare different breeds side by side based on various characteristics.
+
+6. Improved Form: Enhance the form with validation and additional fields, such as user comments or ratings.
+
+### How the Application and API Should Be Deployed
+1. Frontend Deployment: The React application can be deployed using services like Vercel, Netlify, or GitHub Pages. These platforms offer seamless integration with GitHub repositories and provide continuous deployment capabilities.
+
+2. Backend Deployment: If a backend is required, it can be deployed using platforms like Heroku, AWS, or DigitalOcean. These platforms offer scalable solutions for running Node.js applications and can easily integrate with databases.
+
+3. Database: For storing user data and breed information, a managed database service like MongoDB Atlas, AWS RDS, or Firebase can be used. These services provide reliable and scalable database solutions.
+
+4. Continuous Integration/Continuous Deployment (CI/CD): Implement CI/CD pipelines using GitHub Actions, Travis CI, or CircleCI to automate testing and deployment processes. This ensures that any changes to the codebase are tested and deployed automatically.
+
+5. SSL/TLS: Ensure that the application uses HTTPS by obtaining SSL/TLS certificates. This can be easily managed by platforms like Vercel, Netlify, or using services like Let's Encrypt.
+
+6. Monitoring and Logging: Implement monitoring and logging using services like LogRocket, Sentry, or New Relic. This helps in tracking performance issues and errors in real-time
+
 ### Contact
 ibrahim.kedir@outlook.com 
+
 
 
